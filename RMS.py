@@ -2,7 +2,7 @@ import shlex
 from math import pow, sqrt
 
 def RMS(fileName):
-  f = open(fileName)
+	f = open(fileName)
 	lines = f.readlines()
 	f.close()
 	
